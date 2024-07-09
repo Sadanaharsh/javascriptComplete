@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- This is called as the inline event handle. This is not the good practice as the code becomes bulky. -->
+
+    <button onclick="console.log('button was clicked')">Click Me!</button>
+
+    <button ondblclick="console.log('button was clicked 2 times')">Click me 2 times!</button>
+    
+    <!-- Jab bhi hum kisi element ke upar hover karte hain -->
+    <div onmouseover="console.log('you are inside div')">This is a box</div>
+
+    <button id="my-button">Click new button!</button>
+     
+    <div onmouseover="console.log('you are inside div')">This is another box</div>
+
+    <div id="temp">All about event object</div>
+
+    <button id="btn1">Learning About Event Listeners</button>
+
+    <button id="toggle">Toggle button</button>
+    <script src="index3.js"></script>
+</body>
+</html>
